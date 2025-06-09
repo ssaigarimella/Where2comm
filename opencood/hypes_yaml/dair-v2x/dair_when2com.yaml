@@ -1,8 +1,13 @@
 name: dair_when2com
-data_dir: "/home/dellg16ssg/multi-robot-coordination/collaborative-perception-BEVP/datasets/DAIR-V2X-C/cooperative-vehicle-infrastructure"
-root_dir: "/home/dellg16ssg/multi-robot-coordination/collaborative-perception-BEVP/datasets/DAIR-V2X-C/train.json"
-validate_dir: "/home/dellg16ssg/multi-robot-coordination/collaborative-perception-BEVP/datasets/DAIR-V2X-C/val.json"
-test_dir: "/home/dellg16ssg/multi-robot-coordination/collaborative-perception-BEVP/datasets/DAIR-V2X-C/val.json"
+data_dir: "/home/sgarimella34/multi-robot-coordination/collaborative-perception-BEVP/datasets/DAIR-V2X-C/cooperative-vehicle-infrastructure"
+root_dir: "/home/sgarimella34/multi-robot-coordination/collaborative-perception-BEVP/datasets/DAIR-V2X-C/train.json"
+validate_dir: "/home/sgarimella34/multi-robot-coordination/collaborative-perception-BEVP/datasets/DAIR-V2X-C/val.json"
+test_dir: "/home/sgarimella34/multi-robot-coordination/collaborative-perception-BEVP/datasets/DAIR-V2X-C/val.json"
+
+# data_dir: "/home/dellg16ssg/multi-robot-coordination/collaborative-perception-BEVP/datasets/DAIR-V2X-C/cooperative-vehicle-infrastructure"
+# root_dir: "/home/dellg16ssg/multi-robot-coordination/collaborative-perception-BEVP/datasets/DAIR-V2X-C/train.json"
+# validate_dir: "/home/dellg16ssg/multi-robot-coordination/collaborative-perception-BEVP/datasets/DAIR-V2X-C/val.json"
+# test_dir: "/home/dellg16ssg/multi-robot-coordination/collaborative-perception-BEVP/datasets/DAIR-V2X-C/val.json"
 
 noise_setting:
   add_noise: False
@@ -17,7 +22,7 @@ noise_setting:
 
 yaml_parser: "load_point_pillar_params"
 train_params:
-  batch_size: &batch_size 1
+  batch_size: &batch_size 2
   epoches: 60
   eval_freq: 2
   save_freq: 2
